@@ -1,4 +1,4 @@
--- Using SQL Tutorial
+-- Using NULLs Tutorial
 
 -- List the teachers who have NULL for their department. 
 

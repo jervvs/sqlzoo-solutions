@@ -88,5 +88,5 @@ JOIN (route c JOIN route d ON (c.company = d.company AND c.num = d.num))
 JOIN stops stopa ON (a.stop = stopa.id)
 JOIN stops stopb ON (b.stop = stopb.id)
 JOIN stops stopc ON (c.stop = stopc.id)
-JOIN stops stopd ON (d.stop = stopd.id)
+JOIN stops stopd ON (d.stop = stopd.id) 
 WHERE stopa.name = 'Craiglockhart' AND stopd.name = 'Lochend' AND stopb.name = stopc.name

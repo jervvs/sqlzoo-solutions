@@ -67,7 +67,7 @@ SELECT name, capital FROM world WHERE LENGTH(name) = LENGTH(capital)
 --     You can use the function LEFT to isolate the first character.
 --     You can use <> as the NOT EQUALS operator.
 
-SELECT name, capital FROM world WHERE LEFT(name,1) = LEFT(capital,1) and name <> capital
+SELECT name, capital FROM world WHERE LEFT(name,1) = LEFT(capital,1) AND name <> capital
 
 -- Equatorial Guinea and Dominican Republic have all of the vowels (a e i o u) in the name. 
 -- They don't count because they have more than one word in the name.
